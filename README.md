@@ -18,3 +18,4 @@ where `-8` is your adjustment from UTC and `/dev/tty.usbmodem1411` is the serial
 
 Sunrise starts half an hour before your alarmTime, reaching full brightness at alarmTime and stays on until half an hour afterwards.  This code assumes using NeoPixel LED strips.
 
+Uses the [NeoPixel](https://github.com/adafruit/Adafruit_NeoPixel) library and the [Time](http://www.pjrc.com/teensy/td_libs_Time.html) library.
